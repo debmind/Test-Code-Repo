@@ -8,7 +8,7 @@ pipeline {
         }
           stage("Branch Name") {
             steps {			  
-                sh label: '', script: 'echo "Dev Branch'
+                sh label: '', script: 'echo "Dev Branch"'
             }
           }
     }
