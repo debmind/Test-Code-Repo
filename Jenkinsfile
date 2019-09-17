@@ -6,7 +6,7 @@ pipeline {
                 sh label: '', script: 'java -version'
             }
         }
-          stage("Quality Gate") {
+          stage("Branch Name") {
             steps {			  
                 sh label: '', script: 'echo "Master Branch'
             }
