@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Check Java Version') {
             steps {
-                sh label: '', script: '''java -version && This is Master Branch'''
+                sh label: '', script: '''java -version && echo "This is Master Branch"'''
             }
         }
           stage("Branch Name") {
