@@ -8,7 +8,7 @@ pipeline {
         }
           stage("Branch Name") {
             steps {			  
-                sh label: '', script: 'echo "QA Branch'
+                sh label: '', script: 'echo "QA Branch"'
             }
           }
     }
